@@ -42,7 +42,7 @@ class MorseInterface
   def go_english
     puts "Please enter Morse code. Remember, spaces are represented by the '/' symbol."
     print ">> "
-    go_morse_translate
+    go_english_translate
   end
 
   def go_english_translate

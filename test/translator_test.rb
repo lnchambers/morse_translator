@@ -3,7 +3,7 @@ require "minitest/pride"
 require "pry"
 require_relative "../lib/translator"
 
-class TranslatorTes < Minitest::Test
+class TranslatorTest < Minitest::Test
 
  def test_it_exists
    translator = Translator.new
